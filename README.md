@@ -1,2 +1,2 @@
 # godot-common-scipts
-Drag and Drop scripts for Godot projects
+Drag and Drop code for Godot projects
