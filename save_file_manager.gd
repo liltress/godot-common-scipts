@@ -2,15 +2,17 @@ extends Node
 
 ## Singleton (Autoload) for saving progress to disc and retrieving it as needed
 
-## Saves as a JSON to the godot data dir (platform dependent).
+## Works by having a Dictionary representation of the data at runtime,
+## which can be edited with the methods below.
 ## Data is stored as Key Value pairs, Keys entered as Strings.
 ## Values can be any JSON supported type.
 
+## On request saves the data to disc as a JSON in the godot data dir (platform dependent).
 ## Supports managing several files, differentiated by `_save_file_index`
 
 ## Ideal for unstructured data: misc flags, who has the player talked to, things that would be annoying to plan ahead.
 ## Unideal for structured data: character stats, inventories, positions of objects. 
-## For those things make a custon solution with Godot Resources.
+## For those things make a custom solution with Godot Resources.
 
 var debug := false ## enables saving to file with Actions
 
