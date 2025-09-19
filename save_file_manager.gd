@@ -1,6 +1,6 @@
 extends Node
 
-## Singleton (Autoload) script for saving progress to disc and retrieving it as needed
+## Singleton (Autoload) for saving progress to disc and retrieving it as needed
 
 ## Saves as a JSON to the godot data dir (platform dependent).
 ## Data is stored as Key Value pairs, Keys entered as Strings.
